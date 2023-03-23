@@ -1,0 +1,18 @@
+.odd-number {
+    background-color: #ffb6c1;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.size {
+    font-size: 24px;
+}
+
+#firstid {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+#secondid {
+    background-color: hsl(120, 72%, 75%);
+    font-weight: bold;
+}
