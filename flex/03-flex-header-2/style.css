@@ -12,6 +12,25 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.loglink {
+  display:flex;
+  margin-right: auto;
+}
+
+.links {
+  flex-shrink: 0;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
 }
 
 .profile-image {
@@ -27,6 +46,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  flex-shrink: 0;
 }
 
 button {
@@ -45,4 +65,6 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 5px;
 }
